@@ -4,7 +4,7 @@ const Nav = () => {
 
   return(
     <nav className='navbar'>
-      <Link to="/"> 🏠 </Link>
+      <Link className="homebutton" to="/"> 家 </Link>
       <br></br>
       <br></br>
       <h4> aniMATE! </h4>

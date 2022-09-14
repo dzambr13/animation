@@ -42,6 +42,7 @@
 
 - [] Dark/Light Mode
 - [] Deploy to Mobile
+- [] Authentication
 
 ---
 
