@@ -21,14 +21,15 @@ const Posts = (props) => {
     getCategoryById()    
   }
   return (
-    <div className="post-background">
+    <div className="posthm">
       <Link to={`/categories/${id}/form`} > <button>Add Post</button> </Link>
       {
         props.posts?.map((post, index) =>(
-          <div className="post-card"  key={post.id}>
+          <div key={post.id}>
             <h2>{post.nickname}</h2>
             <h3>{post.description}</h3>
-            <img className='postImg' style={{display : 'block'}} src={post.url} alt='' />
+            <br></br>
+            <img className='postimg' style={{display : 'block'}} src={post.url} alt='' />
             <Link to={`/categories/${id}/posts/${post._id}/${index}`}> <button>Edit Post</button> </Link>
             <button onClick={()=>deletePost(post._id)}>Delete Post</button>
             </div>
