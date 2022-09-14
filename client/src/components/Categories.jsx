@@ -16,12 +16,6 @@ return (
           <div className="category-card" onClick={() => showCategories(category)} key={category.id}>
             <h2 className="cattitle">{category.description}</h2>
             <img className="animeimg" src={category.url} alt='lol' />
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
             <h3 className="cattitle">{category.posts}</h3>
             </div>
         ))}

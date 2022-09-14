@@ -29,9 +29,12 @@ body {
 
 .animes {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
-  flex-direction: column;
+  /* flex-direction: column; */
+  flex-wrap: wrap;
+  padding: 5em;
+  gap: 15vw;
 }
 
 .cattitle {
@@ -109,11 +112,11 @@ main {
 .animeimg {
   background-color:#fff;
   /* border:1px solid black;     */
-  height:20em;
+  height:25em;
   border-radius:3%;
   -moz-border-radius:3%;
   -webkit-border-radius:3%;
-  width:25em;
+  width:30em;
   filter: drop-shadow(20px 20px 20px black);
 }
 
