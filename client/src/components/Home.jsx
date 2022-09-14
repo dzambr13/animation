@@ -3,9 +3,9 @@ const Home = () => {
   return (
     <div className="home">
       <div>
-      <img
-      style={{ display: 'block', maxWidth: '100%'}}
-      src="https://th.bing.com/th/id/OIP.C35HRMDAeeDNPiyFQnFJ2AHaDt?w=343&h=175&c=7&r=0&o=5&dpr=2.5&pid=1.7"
+      <img className="homeimg"
+      style={{ maxWidth: '50%'}}
+      src="https://i.pinimg.com/originals/98/28/6a/98286a2243ada070aef5a6925dd3bc54.gif"
       alt="logo"
       />
     </div>
