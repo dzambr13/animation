@@ -31,12 +31,11 @@ const Posts = (props) => {
             <h3>{post.description}</h3>
             <img className='postimg' style={{display : 'block'}} src={post.url} alt='' />
             <Link to={`/categories/${id}/posts/${post._id}/${index}`}> 
+            <br></br>
+            <br></br>
             <button className="edbtn" >Edit</button> </Link>
             <br></br>
             <button className="edbtn" onClick={()=>deletePost(post._id)}>Delete</button>
-            <br></br>
-            <br></br>
-            <br></br>
             <br></br>
             </div>
         ))}
