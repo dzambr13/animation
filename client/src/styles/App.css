@@ -175,7 +175,10 @@ main {
   padding-bottom: .2em;
   padding-right: .4em;
   padding-left: .4em;
-  font-size: 1.3em;
+  font-size: 2.5em;
+  background: transparent;
+  border: none;
+  cursor: pointer;
 }
 
 .plusbtn {
