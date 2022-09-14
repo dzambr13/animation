@@ -7,11 +7,10 @@ const Nav = () => {
       <Link to="/"> 🏠 </Link>
       <br></br>
       <br></br>
-      <h4> welcome to aniMATE! </h4>
+      <h4> aniMATE! </h4>
       <br></br>
       <br></br>
-      <Link to='/categories'>Categories</Link>
-      <div className='dot'></div>
+      <Link to='/categories'>Shows</Link>
     </nav>
   )
 }
