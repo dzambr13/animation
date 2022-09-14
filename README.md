@@ -5,7 +5,7 @@
 ### Dave Zambrano
 
 [LinkedIn](https://www.linkedin.com/in/davezambr/) |
-[GitHub](https://github.com/dzambr13) |
+[GitHub](https://github.com/dzambr13) 
 
 ---
 
