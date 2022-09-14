@@ -30,8 +30,10 @@ const Posts = (props) => {
             <h3>{post.description}</h3>
             <br></br>
             <img className='postimg' style={{display : 'block'}} src={post.url} alt='' />
-            <Link to={`/categories/${id}/posts/${post._id}/${index}`}> <button>Edit Post</button> </Link>
-            <button onClick={()=>deletePost(post._id)}>Delete Post</button>
+            <Link to={`/categories/${id}/posts/${post._id}/${index}`}> 
+            <br></br>
+            <button>Edit</button> </Link>
+            <button onClick={()=>deletePost(post._id)}>Delete</button>
             </div>
         ))}
     </div>
