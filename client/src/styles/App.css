@@ -124,6 +124,7 @@ main {
   -webkit-border-radius:3%;
   width:28em;
   filter: drop-shadow(20px 20px 20px black);
+  cursor: pointer;
 }
 
 .homeint {
