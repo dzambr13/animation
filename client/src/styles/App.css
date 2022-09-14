@@ -26,7 +26,7 @@ body {
   position:relative;
   width: 100vw;
   background-color:rgb(126, 92, 142);
-  min-height: 7vh;
+  min-height: 10vh;
   justify-content: space-around;
   align-items:center;
   font-size: 2vmin;
@@ -38,8 +38,8 @@ body {
   align-items: center;
   /* flex-direction: column; */
   flex-wrap: wrap;
-  padding: 20em;
-  gap: 15vw;
+  margin: 18em;
+  gap: 12vw;
 }
 
 .cattitle {
@@ -183,4 +183,9 @@ main {
 
 .plusbtn {
   margin-top: 13em;
+}
+
+.edbtn {
+  background: transparent;
+  border: none;
 }
