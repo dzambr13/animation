@@ -90,48 +90,22 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
 }
 
 .homeimg {
   max-width: 50%;
-  margin-top: 30vh;
+  max-height: 100%;
   margin-left: 20vw;
+  background-color:#fff;
+  border:1px solid black;    
+  border-radius:3%;
+  -moz-border-radius:3%;
+  -webkit-border-radius:3%;
+  filter: drop-shadow(20px 20px 20px black);
 }
 
 .homeint {
-  margin-top: 32vh;
   padding-right: 30vw;
   font-size: 3em;
-}
-
-#rcorners1 {
-  border-radius: 15px 50px 30px 5px;
-  background: #73AD21;
-  padding: 20px;
-  width: 200px;
-  height: 150px;
-}
-
-#rcorners2 {
-  border-radius: 15px 50px 30px;
-  background: #73AD21;
-  padding: 20px;
-  width: 200px;
-  height: 150px;
-}
-
-#rcorners3 {
-  border-radius: 15px 50px;
-  background: #73AD21;
-  padding: 20px;
-  width: 200px;
-  height: 150px;
-}
-
-#rcorners4 {
-  border-radius: 15px;
-  background: #73AD21;
-  padding: 20px;
-  width: 200px;
-  height: 150px;
 }
