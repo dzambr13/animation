@@ -91,3 +91,13 @@ main {
 .forming {
   padding: 1em;
 }
+
+.homepage {
+  display: flex;
+}
+
+.homeimg {
+  max-width: 40%;
+  margin-top: 30vh;
+  margin-left: 10vw;
+}
