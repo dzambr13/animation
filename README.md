@@ -17,7 +17,7 @@
 
 ---
 
-### **_technologies used_**
+### **_Technologies used_**
 
 - MongoDB
 - Express
