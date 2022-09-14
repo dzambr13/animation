@@ -1,3 +1,5 @@
+@import 'animate.css';
+
 * {
   margin: 0;
   padding: 0;
@@ -108,6 +110,10 @@ main {
 
 .homeint {
   /* padding-right: 30vw; */
-  padding-top: 10vh;
-  font-size: 3em;
+  padding-top: 8vh;
+  font-size: 4em;
+  color: #feffff;
+  animation: bounce;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
 }
