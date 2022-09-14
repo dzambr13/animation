@@ -7,6 +7,11 @@
   box-sizing: border-box;
 }
 
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
 html {
   background-color:rgb(126, 92, 142);
 }
@@ -33,12 +38,13 @@ body {
   align-items: center;
   /* flex-direction: column; */
   flex-wrap: wrap;
-  padding: 5em;
+  padding: 20em;
   gap: 15vw;
 }
 
 .cattitle {
   color: black;
+  font-size: 2.2em;
 }
 
 .post-background {
@@ -116,7 +122,7 @@ main {
   border-radius:3%;
   -moz-border-radius:3%;
   -webkit-border-radius:3%;
-  width:30em;
+  width:33em;
   filter: drop-shadow(20px 20px 20px black);
 }
 
