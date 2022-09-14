@@ -63,7 +63,7 @@ body {
 .cattitle {
   color: rgba(254, 214, 254, 0.805);
   font-size: 2.2em;
-  color: rgba(255, 255, 255, 0.658);
+  /* color: rgba(255, 255, 255, 0.658);
   text-shadow:
       0 0 7px rgba(255, 255, 255, 0.495),
       0 0 10px rgba(255, 255, 255, 0.472),
@@ -72,7 +72,7 @@ body {
       0 0 82px rgba(255, 255, 255, 0.635),
       0 0 92px rgba(255, 255, 255, 0.575),
       0 0 102px rgba(255, 255, 255, 0.562),
-      0 0 151px rgba(255, 255, 255, 0.582);
+      0 0 151px rgba(255, 255, 255, 0.582); */
       /* animation: flicker 2s infinite alternate; */
 }
 
