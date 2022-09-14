@@ -10,12 +10,12 @@ const Categories = (props) => {
 
 
 return (
-    <div className="category-grid">
+    <div className="animes">
       {
         props.categories?.map((category) =>(
           <div className="category-card" onClick={() => showCategories(category)} key={category.id}>
             <h2>{category.description}</h2>
-            <img style={{display : 'block'}} src={category.url} alt='' />
+            <img className="animeimg" src={category.url} alt='lol' />
             <h3>{category.posts}</h3>
             </div>
         ))}
