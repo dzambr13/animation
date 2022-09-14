@@ -41,7 +41,7 @@
 ### **_Future Updates_**
 
 - [] Dark/Light Mode
-- [] Deploy to Mobile
+- [] Volume Control
 - [] Authentication
 
 ---
