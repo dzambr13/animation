@@ -155,10 +155,12 @@ main {
 .posthm {
   display:flex;
   /* justify-content: space-between; */
+  flex-direction: column;
   margin-left: 2em;
-  margin-top: 2em;
-  padding: 5em;
-  gap: 15em;
+  /* margin-top: 2em; */
+  padding-left: 5em;
+  padding-bottom: 5em;
+  gap: 3em;
 }
 
 .postimg {
@@ -182,10 +184,6 @@ main {
   background: transparent;
   border: none;
   cursor: pointer;
-}
-
-.plusbtn {
-  margin-top: 13em;
 }
 
 .edbtn {
