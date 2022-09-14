@@ -36,6 +36,18 @@
 
 ![Homepage](https://cdn.discordapp.com/attachments/1014901483860394064/1019555730791075881/unknown.png)
 
+### Profiles
+
+![Profiles](https://cdn.discordapp.com/attachments/1014901483860394064/1019560918364987442/unknown.png)
+
+### Add Post
+
+![AddPost](https://cdn.discordapp.com/attachments/1014901483860394064/1019562293870207028/unknown.png)
+
+### Edit Post
+
+![EditPost](https://cdn.discordapp.com/attachments/1014901483860394064/1019560977655668757/unknown.png)
+
 ---
 
 ### **_Future Updates_**
