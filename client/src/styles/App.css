@@ -56,10 +56,7 @@ nav.borderXwidth a:hover:before, nav.borderXwidth a:hover:after
 
 main {
   min-height: 93vh;
-  background: #140204;
-  background: -moz-linear-gradient(45deg, #140204 0%, #3B060D 50%, #949DA1 100%);
-  background: -webkit-linear-gradient(45deg, #140204 0%, #3B060D 50%, #949DA1 100%);
-  background: linear-gradient(45deg, #140204 0%, #3B060D 50%, #949DA1 100%);
+  background-color:rgb(127, 93, 157);
 }
 
 .postImg {
@@ -77,7 +74,6 @@ main {
 
 .posting {
   display: flex;
-  justify-content: center;
   flex-direction: column;
   align-items: center;
   padding: 10em;
