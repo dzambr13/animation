@@ -32,6 +32,7 @@ const Posts = (props) => {
             <img className='postimg' style={{display : 'block'}} src={post.url} alt='' />
             <Link to={`/categories/${id}/posts/${post._id}/${index}`}> 
             <br></br>
+            <br></br>
             <button className="edbtn" >Edit</button> </Link>
             <br></br>
             <br></br>
