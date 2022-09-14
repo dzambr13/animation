@@ -1,5 +1,6 @@
 @import 'animate.css';
 
+
 * {
   margin: 0;
   padding: 0;
@@ -42,9 +43,37 @@ body {
   gap: 12vw;
 }
 
+@keyframes flicker {
+  0%, 18%, 22%, 25%, 53%, 57%, 100% {
+      text-shadow:
+      0 0 4px #fff,
+      0 0 11px #fff,
+      0 0 19px #fff,
+      0 0 40px rgb(255, 255, 255),
+      0 0 80px rgb(255, 255, 255),
+      0 0 90px rgb(255, 255, 255),
+      0 0 100px rgb(255, 255, 255),
+      0 0 150px rgb(255, 255, 255);
+  }
+  20%, 24%, 55% {
+      text-shadow: none;
+  }
+}
+
 .cattitle {
-  color: black;
+  color: rgba(254, 214, 254, 0.805);
   font-size: 2.2em;
+  color: rgba(255, 255, 255, 0.658);
+  text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px rgb(255, 255, 255),
+      0 0 82px rgb(255, 255, 255),
+      0 0 92px rgb(255, 255, 255),
+      0 0 102px rgb(255, 255, 255),
+      0 0 151px rgb(255, 255, 255);
+      animation: flicker 2s infinite alternate;
 }
 
 .post-background {
@@ -137,6 +166,20 @@ main {
   animation-duration: 4s;
   animation-iteration-count: 1;
   color: rgba(254, 214, 254, 0.805);
+}
+
+.homeint {
+  color: rgba(255, 255, 255, 0.658);
+  text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px rgb(255, 255, 255),
+      0 0 82px rgb(255, 255, 255),
+      0 0 92px rgb(255, 255, 255),
+      0 0 102px rgb(255, 255, 255),
+      0 0 151px rgb(255, 255, 255);
+      /* animation: flicker 2s infinite alternate; */
 }
 
 .shows {

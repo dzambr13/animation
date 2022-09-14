@@ -11,6 +11,12 @@ const Home = () => {
     <div>
       <h1 className="homeint">Stay awhile!</h1>
     </div>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
     </div>    
   )
 }

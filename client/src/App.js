@@ -8,11 +8,19 @@ import axios from 'axios'
 import { useState, useEffect } from 'react'
 import EditPost from './components/EditPost'
 import './styles/App.css'
+import React from 'react'
 
 function App() {
   const [postValues, setPostValues] = useState([])
   const [categories, setCategories] = useState([])
   const [posts, setPosts] = useState([])
+
+  // const [songs, setSongs] = useState([
+  //   {
+  //     title: 'Unravel',
+  //     artist: 'idklol'
+  //   }
+  // ])
 
   useEffect(() => {
     const getCategories = async () => {
