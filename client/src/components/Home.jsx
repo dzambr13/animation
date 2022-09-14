@@ -9,7 +9,7 @@ const Home = () => {
       />
     </div>
     <div>
-      <h1 className="homeint">Stay awhile!</h1>
+      {/* <h1 className="homeint">Stay awhile!</h1> */}
     </div>
     <br></br>
     <br></br>
