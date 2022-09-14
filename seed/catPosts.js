@@ -12,7 +12,7 @@ const main = async () => {
 
   const category2 = await new Category({
     description: 'Sword Art Online',
-    url: 'https://d3fd5j8wprxn3h.cloudfront.net/wp-content/uploads/2021/11/Sword-Art-Online-Progressive-is-an-Incredibly-Accessible-Movie.jpeg'
+    url: 'https://c.tenor.com/JJXP77656U4AAAAM/sword-art-online-unamused.gif'
   })
   category2.save()
 
