@@ -40,9 +40,8 @@
 
 ### **_Future Updates_**
 
-- [] Direct Messaging
+- [] Dark/Light Mode
 - [] Deploy to Mobile
-- [] Update password
 
 ---
 
