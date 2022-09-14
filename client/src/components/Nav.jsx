@@ -10,7 +10,7 @@ const Nav = () => {
       <h4> aniMATE! </h4>
       <br></br>
       <br></br>
-      <Link to='/categories'>Shows</Link>
+      <Link className="shows" to='/categories'>Shows</Link>
     </nav>
   )
 }

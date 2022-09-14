@@ -91,12 +91,13 @@ main {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  padding-top: 8vh;
 }
 
 .homeimg {
   max-width: 50%;
   max-height: 100%;
-  margin-left: 20vw;
+  margin-left: 25vw;
   background-color:#fff;
   border:1px solid black;    
   border-radius:3%;
@@ -106,6 +107,7 @@ main {
 }
 
 .homeint {
-  padding-right: 30vw;
+  /* padding-right: 30vw; */
+  padding-top: 10vh;
   font-size: 3em;
 }
