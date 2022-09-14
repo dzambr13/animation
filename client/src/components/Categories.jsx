@@ -1,6 +1,6 @@
 import { useNavigate } from 'react-router-dom'
 
-//test
+//testLOL
 const Categories = (props) => {
   let navigate = useNavigate()
 

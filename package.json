@@ -1,0 +1,33 @@
+{
+  "name": "tattoos-blog",
+  "version": "1.0.0",
+  "description": "***\r ## ***Description***\r ## This is a blog about tattoos. Anyone can view and create posts about tattoss that they like. The benefit of signing up for an account is that the user is able to follow people and posts from other people. Also, they are able to edit or delete their own posts. Whereas, if the user chooses to create or view posts with the anonymous option, they will not be able to edit or delete any of their previously submitted posts, and they will not be able to follow other users.  \r ***\r ## ***Technologies Used***\r * HTML\r * JavaScript\r * CSS\r * React\r * MongoDB\r ***\r ## ***Screenshots*** \r ### **Image header 1**\r ![Image](URLHERE)\r ### **Image header 2**\r ![Image](URLHERE)\r ***\r ## ***Future Updates***\r - [] Future Update 1\r - [] Future Update 2\r - [x] Completed Update\r - [x] ~~Strikethrough~~ Items Also\r ***\r ## ***Credits***\r ### Drawio planning: [Drawio](https://app.diagrams.net/#G1HqBklZtCe_kpwsLqxldE1KGB0gkDRmSF)\r ### Funny Images: [DuckDuckGo Search](URLHERE)\r ### Markdown Guide: [ia.net](https://ia.net/writer/support/general/markdown-guide) \r ### Markdown Cheatsheet: [GitHub](https://github.com/ViryF/u1_hw_markdown)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "build": "cd client && rm -rf build && npm install && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ViryF/Tattoos_Blog.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ViryF/Tattoos_Blog/issues"
+  },
+  "homepage": "https://github.com/ViryF/Tattoos_Blog#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mongoose": "^6.4.6",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
