@@ -34,11 +34,9 @@ const EditPost = (props) => {
 
 
   return (
-    <div id="editPost">
+    <div className="edit">
       <h1>Edit your own post now! {props.posts[index].nickname}</h1>
-      <h4>Please enter your info below...</h4>
       <form onSubmit={handleSubmit}>
-
         <label htmlFor='nickname'>Name:</label>
         <input
           id='nickname'
@@ -47,16 +45,18 @@ const EditPost = (props) => {
           value={formState.nickname}
           onChange={handleChange}
         />
-
+        <br></br>
+        <br></br>
         <label htmlFor="description">Description</label>
         <textarea
           id='description'
           placeholder="Enter a comment about your post"
-          cols="10" rows="10"           
+          cols="10" rows="1"           
           value={formState.description}
           onChange={handleChange}
           ></textarea>
-
+        <br></br>
+        <br></br>
         <label htmlFor='url'>Image Link</label>
         <input
           id='url'
@@ -65,9 +65,11 @@ const EditPost = (props) => {
           value={formState.url}
           onChange={handleChange}
         />
-
+        <br></br>
         <button type="submit">Submit</button>
       </form>
+      <br></br>
+      <br></br>
       <h1>Update Post to:</h1>
         <div>
           <h3>Nickname: { formState.nickname }</h3>

@@ -103,10 +103,6 @@ main {
   padding-bottom: 10px;
 }
 
-#editPost {
-  color: #F0F8FF;
-}
-
 .posting {
   display: flex;
   flex-direction: column;
