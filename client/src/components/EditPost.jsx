@@ -34,7 +34,7 @@ const EditPost = (props) => {
 
 
   return (
-    <div className="edit">
+    <div className="edits">
       <h1>Edit  {props.posts[index].nickname}'s post here</h1>
       <br></br>
       <form onSubmit={handleSubmit}>
@@ -71,9 +71,9 @@ const EditPost = (props) => {
       </form>
       <br></br>
       <br></br>
-      <h1>Update Post to:</h1>
+      <h1>Updates:</h1>
         <div>
-          <h3>Nickname: { formState.nickname }</h3>
+          <h3>Name: { formState.nickname }</h3>
           <p>Description: { formState.description }</p>
           <image src={formState.url} alt='user image' />
           
