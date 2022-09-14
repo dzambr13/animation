@@ -30,6 +30,10 @@ body {
   flex-direction: column;
 }
 
+.cattitle {
+  color: black;
+}
+
 .post-background {
   display: flex;
   flex-direction: column;
@@ -116,7 +120,7 @@ main {
   border-radius:3%;
   -moz-border-radius:3%;
   -webkit-border-radius:3%;
-  width:20em;
+  width:25em;
   filter: drop-shadow(20px 20px 20px black);
 }
 
