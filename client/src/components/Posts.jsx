@@ -22,7 +22,7 @@ const Posts = (props) => {
   }
   return (
     <div className="posthm">
-      <Link to={`/categories/${id}/form`} > <button>Add Post</button> </Link>
+      <Link className="plusbtn"to={`/categories/${id}/form`} > <button className="addbtn"> + </button> </Link>
       {
         props.posts?.map((post, index) =>(
           <div key={post.id}>

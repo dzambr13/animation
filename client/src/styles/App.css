@@ -169,3 +169,15 @@ main {
   -webkit-border-radius:3%;
   filter: drop-shadow(20px 20px 20px black);
 }
+
+.addbtn {
+  padding-top: .2em;
+  padding-bottom: .2em;
+  padding-right: .4em;
+  padding-left: .4em;
+  font-size: 1.3em;
+}
+
+.plusbtn {
+  margin-top: 13em;
+}
