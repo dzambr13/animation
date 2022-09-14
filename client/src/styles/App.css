@@ -114,6 +114,6 @@ main {
   font-size: 5em;
   color: #feffff;
   animation: backInLeft;
-  animation-duration: 5s;
+  animation-duration: 4s;
   animation-iteration-count: 1;
 }
