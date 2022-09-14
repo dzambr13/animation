@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 const Nav = () => {
 
   return(
-    <nav className='navbar borderXwidth'>
+    <nav className='navbar'>
       <Link to="/"> 🏠 </Link>
       <br></br>
       <br></br>
