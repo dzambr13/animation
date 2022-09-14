@@ -33,10 +33,10 @@ const Form = (props) => {
 
   return (
     <div className="posting">
-      <h2>Make your own post</h2>
+      <h2>Post here</h2>
       <form className="forming"onSubmit={handleSubmit}>
 
-        <label htmlFor='nickname'> Name:</label>
+        <label htmlFor='nickname'> Name: </label>
         <input
           id='nickname'
           type="text"
@@ -46,7 +46,7 @@ const Form = (props) => {
         />
         <br></br>
         <br></br>
-        <label htmlFor="description">Comment</label>
+        <label htmlFor="description">Comment: </label>
         <textarea
           id='description'
           placeholder="Comment"
@@ -56,7 +56,7 @@ const Form = (props) => {
           ></textarea>
         <br></br>
         <br></br>
-        <label htmlFor='url'>Image Link</label>
+        <label htmlFor='url'>Image Link: </label>
         <input
           id='url'
           type="text"
