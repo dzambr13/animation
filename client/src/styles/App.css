@@ -93,7 +93,7 @@ main {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  padding-top: 8vh;
+  padding-top: 3vh;
 }
 
 .homeimg {
@@ -111,9 +111,9 @@ main {
 .homeint {
   /* padding-right: 30vw; */
   padding-top: 8vh;
-  font-size: 4em;
+  font-size: 5em;
   color: #feffff;
-  animation: bounce;
-  animation-duration: 4s;
-  animation-iteration-count: infinite;
+  animation: backInLeft;
+  animation-duration: 5s;
+  animation-iteration-count: 1;
 }
