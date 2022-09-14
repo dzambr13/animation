@@ -6,7 +6,7 @@ db.on('error', console.error.bind(console, 'MongoDB connection error:'))
 const main = async () => {
   const category1 = await new Category({
     description: 'Naruto',
-    url: 'https://wallpapers-clan.com/wp-content/uploads/2022/02/naruto-pfp-1.jpg'
+    url: 'https://giffiles.alphacoders.com/215/215597.gif'
   })
   category1.save()
 
@@ -18,25 +18,25 @@ const main = async () => {
 
   const category3 = await new Category({
     description: 'Attack On Titan',
-    url: 'https://i.pinimg.com/originals/1a/31/cf/1a31cf6c4a11567bc952f38d17458a18.jpg'
+    url: 'https://www.icegif.com/wp-content/uploads/icegif-3485.gif'
   })
   category3.save()
 
   const category4 = await new Category({
     description: 'Another',
-    url: 'https://i.pinimg.com/564x/a5/cb/13/a5cb13e5e4ed7e70d753e2cede079eae.jpg'
+    url: 'https://image.myanimelist.net/ui/_3fYL8i6Q-n-155t3dn_4gfofHpguZQE6dH7oK7e2ly-4958X2hUmUkrkf8Ogc5T'
   })
   category4.save()
 
   const category5 = await new Category({
     description: 'Parasyte',
-    url: 'https://i.pinimg.com/originals/fc/d3/a3/fcd3a3a328ef71eedfc1d41e562cf67a.jpg'
+    url: 'https://i.pinimg.com/originals/23/71/a6/2371a688c939d10aff2e1baa416f7adc.gif'
   })
   category5.save()
 
   const category6 = await new Category({
     description: 'Tokyo Ghoul',
-    url: 'https://i.pinimg.com/originals/f7/6d/fa/f76dfacf281ea46a0887d3178b8b25c0.jpg'
+    url: 'https://c.tenor.com/zG-5Iy77F_oAAAAC/tokyo-ghoul.gif'
   })
   category6.save()
 
