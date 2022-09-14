@@ -64,8 +64,10 @@ body {
 }
 
 main {
-  min-height: 93vh;
+  /* min-height: 93vh; */
   background-color:rgb(126, 92, 142);
+  max-height: 100%;
+  overflow-y: hidden;
 }
 
 .post-background {
@@ -100,7 +102,7 @@ main {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  padding-top: 3vh;
+  padding-top: 2vh;
 }
 
 .homeimg {
@@ -128,7 +130,7 @@ main {
 }
 
 .homeint {
-  padding-top: 7vh;
+  padding-top: 5vh;
   font-size: 5.5em;
   color: #feffff;
   animation: backInLeft;
