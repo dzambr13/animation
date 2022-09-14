@@ -1,4 +1,4 @@
-# amin8
+# aniMATE
 
 ## Date: Sept 14, 2022
 
